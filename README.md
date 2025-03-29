@@ -97,7 +97,7 @@ balance roundrobin
 server web-01 54.89.152.170:80 check
 server web-0234.230.31.95:80 check
 
-The load balancer is efficiently configured using HAProxy, distributing incoming traffic evenly between web-01 and web-02. The frontend, nshuti_front, listens on ports 80 and 443, with SSL certificates stored at /etc/letsencrypt/live/www.nshuti.tech/nshuti.pem. 5. Also, to view the application use the lb-01 IP address or www.nshuti.tech 6. 7.
+The load balancer is efficiently configured using HAProxy, distributing incoming traffic evenly between web-01 and web-02. 
 
 APIs Used OMDb API • Base URL: http://www.omdbapi.com/ • Fetches movie data including titles, posters, and descriptions. YouTube Data API • Base URL: https://www.googleapis.com/youtube/v3 • Retrieves movie trailers by searching YouTube with the movie title.
 
